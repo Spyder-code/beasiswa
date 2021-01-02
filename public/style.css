@@ -1,0 +1,92 @@
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  font-family: viga;
+  font-size: 28px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+
+@media (min-width:992px) {
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid black;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+
+.jumbotron {
+  background-image: url(img/banner1.jpg);
+  background-size: cover;
+  height: 640px;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: 200;
+  font-size: 62px;
+}
+
+.jumbotron .display-4 span {
+  color: red;
+  font-weight: 500;
+}
+
+.tittle {
+  margin-top: 50px;
+}
+
+.tittle h3 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.content-beasiswa {
+  margin-top: 100px;
+}
+
+.content-beasiswa h3 {
+  font-size: 48px;
+  margin-top: 20px;
+  color:black;
+}
+
+.content-beasiswa a {
+  margin-top: 30px;
+}
+
+.lebih-banyak {
+  margin-top: 50px;
+}
+
+.sponsor-kita h3 {
+  font-family: viga;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.code-with-love h5 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.tittle p {
+  margin-top: 30px;
+}
+
+.content-beasiswa p .tenggat {
+  color: grey;
+}
